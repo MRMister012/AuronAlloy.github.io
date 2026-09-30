@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aureon Alloy</title>
+    <link rel="icon" href="Assets/IMG/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/Index.css">
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+</head>
+<!--
+Querido Programador!
+Al momento de escribir este codigo, 
+Solo yo y Dios sabemos como funciona
+--------------------- -->
+
+<body>
+    <header class="header">
+        <a href="Index.html" class="logo">
+            <img src="Assets/IMG/Logo.png" alt="Logo de Aureon Alloy" class="logo-img">
+            <div class="logo-text">
+                <h1>AUREON ALLOY</h1>
+                <h2>SenaTIC</h2>
+            </div>
+        </a>
+
+        <!-- Menú de Navegación -->
+        <nav>
+            <ul class="nav-menu">
+                <!-- Botón Simple -->
+                <li class="nav-item active">
+                    <a href="Index.html" class="nav-link">Inicio</a>
+                </li>
+
+                <!-- Botón con Desplegable  -->
+                <li class="nav-item has-dropdown">
+                    <button type="button" class="nav-link dropdown-toggle">
+                        <span>Servicios</span>
+                        <i class="bx bx-chevron-down dropdown-icon"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#proceso" class="dropdown-link">Desarrollo Web & Mobile</a></li>
+                        <li><a href="" class="dropdown-link">Mantenimiento de Hardware</a></li>
+                        <li><a href="" class="dropdown-link">Soporte de Software</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <button type="button" class="nav-link dropdown-toggle">
+                        <span>Bitácoras</span>
+                        <i class="bx bx-chevron-down dropdown-icon"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-link">Bitácoras SENA</a></li>
+                        <li><a href="#portafolio" class="dropdown-link">Proyectos</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <button type="button" class="nav-link dropdown-toggle">
+                        <span>Nosotros</span>
+                        <i class="bx bx-chevron-down dropdown-icon"></i>
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a href="Pages/nosotros.html" class="dropdown-link">Nuestro Equipo</a></li>
+                        <li><a href="#nosotros" class="dropdown-link">Misión y Visión</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- Acciones y Herramientas -->
+        <div class="actions-container">
+            <a href="#contacto" class="contact-btn">Contáctanos</a>
+
+            <div class="divider"></div>
+
+            <!-- Cápsula de ayuda -->
+            <a href="#contacto" class="help-pill">
+                <span>¿Cómo podemos ayudarte?</span>
+                <i class="bx bx-light-bulb"></i>
+            </a>
+
+            <div class="divider"></div>
+
+            <div class="lang-selector">
+                <span class="lang-active">ES <i class="bx bx-chevron-down"></i></span>
+
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero -->
+        <section class="section hero" id="inicio">
+            <div class="section-inner hero-in">
+                <h1>Ideas que se convierten en software que funciona</h1>
+                <p>Somos un equipo de estudiantes de Ingeniería Teleinformática que diseña y desarrolla aplicaciones web, móviles y soluciones a medida para negocios que quieren operar mejor.</p>
+                <div class="hero-actions">
+                    <a href="#contacto" class="btn btn-link">Iniciar mi proyecto <i class="bx bx-arrow-right-stroke"></i></a>
+                    <a href="#portafolio" class="btn btn-outline">Ver portafolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Nosotros -->
+        <section class="section about" id="nosotros">
+            <div class="section-inner">
+                <div class="about-text">
+                    <h2>Diseño, desarrollo y soporte en un mismo equipo</h2>
+                    <p>En Aureon Alloy diseñamos y construimos aplicaciones, plataformas web y herramientas digitales para quienes necesitan un aliado técnico confiable, no solo alguien que escriba código.</p>
+                    <p>Combinamos análisis, experiencia de usuario y desarrollo continuo para que cada producto sea claro de usar, fácil de ampliar y se mantenga en el tiempo.</p>
+                    <a href="#contacto" class="btn btn-primary">Empieza hoy</a>
+                </div>
+            </div>
+            <div class="ring ring--a" aria-hidden="true"></div>
+            <div class="ring ring--b" aria-hidden="true"></div>
+        </section>
+
+        <!-- 3. Modus operandi -->
+        <section class="section section--light" id="proceso">
+            <div class="section-inner">
+                <div class="process-head">
+                    <h2>Así desarrollamos tu aplicación</h2>
+                    <p>Un proceso en cuatro etapas, para que siempre sepas en qué punto está tu proyecto.</p>
+                </div>
+                <div class="steps">
+                    <article class="step">
+                        <div class="step-icon"><i class="bx bx-search"></i></div>
+                        <span class="step-n">Etapa 1 · Análisis</span>
+                        <h3>Entendemos lo que necesitas</h3>
+                        <p>Hablamos contigo, revisamos cómo trabajas hoy y definimos el alcance y los requisitos de la app.</p>
+                    </article>
+                    <article class="step">
+                        <div class="step-icon"><i class="bx bx-layout"></i></div>
+                        <span class="step-n">Etapa 2 · Diseño</span>
+                        <h3>Bocetos y prototipo</h3>
+                        <p>Diseñamos las pantallas y el flujo de uso, y los validamos contigo antes de programar.</p>
+                    </article>
+                    <article class="step">
+                        <div class="step-icon"><i class="bx bx-code-alt"></i></div>
+                        <span class="step-n">Etapa 3 · Desarrollo</span>
+                        <h3>Construcción por entregas</h3>
+                        <p>Programamos en ciclos cortos y probamos cada avance para corregir a tiempo.</p>
+                    </article>
+                    <article class="step">
+                        <div class="step-icon"><i class="bx bx-rocket"></i></div>
+                        <span class="step-n">Etapa 4 · Entrega</span>
+                        <h3>Lanzamiento y soporte</h3>
+                        <p>Publicamos la app, te capacitamos y seguimos disponibles para ajustes y mantenimiento.</p>
+                    </article>
+                </div>
+                <div class="center"><a href="#contacto" class="btn btn-primary">Crece con nosotros</a></div>
+            </div>
+        </section>
+
+        <!-- 4. Portafolio -->
+        <section class="section portfolio" id="portafolio">
+            <div class="section-inner">
+                <div class="portfolio-head">
+                    <span class="tag">Portafolio</span>
+                    <h2>Productos digitales hechos para clientes reales</h2>
+                    <p>Estos son los proyectos que hemos construido. Pronto sumaremos más.</p>
+                </div>
+                <div class="projects">
+                    <article class="project">
+                        <div class="project-preview" aria-hidden="true">
+                            <div class="mini-cal">
+                                <div class="mini-cal-title"><span>Octubre</span><i class="bx bx-calendar"></i></div>
+                                <div class="mini-cal-grid" id="mini-cal"></div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-client">Cliente: Piwing</span>
+                            <h3>App de calendario</h3>
+                            <p>Aplicación para organizar y consultar las fechas y actividades de la empresa en un solo lugar.</p>
+                            <div class="chips"><span class="chip">Calendario</span><span class="chip">App</span></div>
+                        </div>
+                    </article>
+                    <article class="project project--soon">
+                        <i class="bx bx-plus"></i>
+                        <h3>Tu proyecto puede ir aquí</h3>
+                        <p>Estamos recibiendo nuevos proyectos.</p>
+                        <a href="#contacto" class="btn btn-outline">Cuéntanos tu idea</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Opiniones -->
+        <section class="section section--light" id="opiniones">
+            <div class="section-inner quotes">
+                <span class="tag">Nuestros clientes</span>
+                <div class="quote-track">
+                    <figure class="quote active">
+                        <blockquote>“Entendieron lo que necesitábamos desde la primera reunión y lo convirtieron en una app clara y fácil de usar.”</blockquote>
+                        <span class="who">Piwing</span>
+                        <span class="name">Nombre del cliente, cargo</span>
+                    </figure>
+                    <figure class="quote">
+                        <blockquote>“Cada avance nos lo mostraron antes de seguir, así que no hubo sorpresas al final.”</blockquote>
+                        <span class="who">Empresa</span>
+                        <span class="name">Nombre del cliente, cargo</span>
+                    </figure>
+                    <figure class="quote">
+                        <blockquote>“Nos acompañaron incluso después de la entrega, resolviendo cada duda que tuvimos.”</blockquote>
+                        <span class="who">Empresa</span>
+                        <span class="name">Nombre del cliente, cargo</span>
+                    </figure>
+                </div>
+                <div class="dots" role="tablist" aria-label="Opiniones"></div>
+            </div>
+        </section>
+
+        <!-- 6. Contacto -->
+        <section class="section contact" id="contacto">
+            <div class="section-inner contact-grid">
+                <div class="contact-copy">
+                    <span class="tag">¡Hablemos!</span>
+                    <h2>Construyamos el software que tu negocio necesita</h2>
+                    <p>Cuéntanos qué app, plataforma o sistema quieres desarrollar y te ayudamos a definir el siguiente paso.</p>
+                    <a href="#nombre" class="btn btn-primary">Iniciar mi proyecto <i class="bx bx-arrow-right-stroke"></i></a>
+                </div>
+
+                <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+                    <input type="hidden" name="access_key" value="fb3d9143-e59a-4e93-9a18-28a8f5226d7b">
+                    <input type="hidden" name="subject" value="Nuevo contacto desde Aureon Alloy">
+                    <input type="hidden" name="from_name" value="Sitio web Aureon Alloy">
+                    <input type="hidden" name="name" id="full-name">
+                    <div class="form-row">
+                        <label for="nombre">Nombre <b>*</b></label>
+                        <input class="field" id="nombre" name="nombre" type="text" autocomplete="given-name" required>
+                        <span class="error"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="apellido">Apellido <b>*</b></label>
+                        <input class="field" id="apellido" name="apellido" type="text" autocomplete="family-name" required>
+                        <span class="error"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Correo electrónico <b>*</b></label>
+                        <input class="field" id="email" name="email" type="email" autocomplete="email" required>
+                        <span class="error"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="telefono">Número de teléfono <b>*</b></label>
+                        <input class="field" id="telefono" name="telefono" type="tel" autocomplete="tel" placeholder="+57 300 123 4567" required>
+                        <span class="error"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="tipo">¿Qué necesitas? <b>*</b></label>
+                        <select class="field" id="tipo" name="tipo" required>
+                            <option value="">Selecciona una opción</option>
+                            <option>Desarrollo web o móvil</option>
+                            <option>Mantenimiento de hardware</option>
+                            <option>Soporte de software</option>
+                            <option>Otro</option>
+                        </select>
+                        <span class="error"></span>
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="field" id="mensaje" name="message" placeholder="Cuéntanos brevemente tu idea"></textarea>
+                    </div>
+                    <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display:none">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <p class="form-status" id="form-status" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Datos de contacto -->
+    <section class="data-strip" aria-label="Datos de contacto">
+        <div class="data-grid">
+            <div class="data-item"><i class="bx bx-envelope"></i><div><strong>Correo</strong><span>contacto@aureonalloy.com</span></div></div>
+            <div class="data-item"><i class="bx bx-phone"></i><div><strong>Teléfono</strong><span>+57 300 000 0000</span></div></div>
+            <div class="data-item"><i class="bx bx-map"></i><div><strong>Ubicación</strong><span>Bogotá, Colombia</span></div></div>
+            <div class="data-item"><i class="bx bx-time"></i><div><strong>Horario</strong><span>Lunes a viernes, 8:00 a. m. a 5:00 p. m.</span></div></div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <span>© <span id="year"></span> Aureon Alloy · SenaTIC</span>
+        <nav><a href="#proceso">Proceso</a><a href="#portafolio">Portafolio</a><a href="#contacto">Contacto</a></nav>
+    </footer>
+
+    <script src="Assets/JS/Index.js"></script>
+</body>
+
+</html>
